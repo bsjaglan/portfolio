@@ -14,20 +14,20 @@ function Navbar() {
   ];
 
   return (
-    <div className="flex justify-between items-center py-4">
+    <div className="flex justify-between items-center py-4 px-[5%] max-w-[1200px] mx-auto">
       <p className="text-4xl font-extrabold">Portfolio.</p>
       <ul className="gap-4 hidden sm:flex">
         {navItems.map((item) => (
           <li key={item.id} onClick={() => setClicked(item.id)}>
             <a
-              className="group relative "
+              className="group relative"
               href={item.route}
-              style={clicked === item.id ? {fontWeight: "bold"} : {}}
+              style={clicked === item.id ? {fontWeight: "bold", color: 'black'} : {}}
             >
               {item.text}
               <span
-                className="absolute block right-0 w-1/2 -bottom-2 h-[2px] opacity-0 bg-gray-600 rounded-2xl group-hover:opacity-100 group-hover:w-3/4 duration-500"
-                style={clicked === item.id ? {opacity: "1"} : {}}
+                className="absolute block right-0 w-1/2 -bottom-2 h-[2px] opacity-0 bg-customGray rounded-2xl group-hover:opacity-100 group-hover:w-3/4 duration-500"
+                style={clicked === item.id ? {opacity: "1", backgroundColor: 'black'} : {}}
               ></span>
             </a>
           </li>
