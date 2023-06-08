@@ -5,10 +5,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'customGray': '#5A5658',
-        'customOrange': '#FF7B00'
-      }
+        customGray: "#5A5658",
+        customOrange: "#FF7B00",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("prettier-plugin-tailwindcss")],
 };

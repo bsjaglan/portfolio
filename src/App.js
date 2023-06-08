@@ -1,12 +1,14 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className='bg-[#f5f0e8]'>
+    <div>
       <Navbar />
       <Home />
+      <Footer />
     </div>
   )
 }
