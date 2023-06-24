@@ -6,7 +6,7 @@ import GetInTouch from '../components/home/GetInTouch'
 
 function Home() {
   return (
-    <div className='mt-20'>
+    <div>
         <Intro />
         <Skillset />
         <ProjectCarosel />

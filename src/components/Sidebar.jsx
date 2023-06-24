@@ -13,7 +13,7 @@ function Sidebar({handleClose}) {
   // sidebar links with icons and routes
   const sidebarItems = [
     {id: 1, text: "Home", icon: HomeIcon, route: "#"},
-    {id: 2, text: "About", icon: InfoIcon, route: "#"},
+    {id: 2, text: "About", icon: InfoIcon, route: "/about"},
     {id: 3, text: "Contact", icon: ContactIcon, route: "#contact"},
     {id: 4, text: "Projects", icon: ProjectIcon, route: "#projects"},
   ];

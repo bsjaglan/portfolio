@@ -9,13 +9,13 @@ function Navbar() {
   const navItems = [
     {id: 4, text: "Projects", route: "#projects"},
     {id: 3, text: "Contact", route: "#contact"},
-    {id: 2, text: "About", route: "#"},
+    {id: 2, text: "About", route: "/about"},
     {id: 1, text: "Home", route: "#"},
   ];
 
   return (
-    <div className="fixed left-0 right-0 top-0 z-10 border-b border-customOrange bg-[#f5f0e8]">
-      <div className="mx-auto flex max-w-[1200px] items-center justify-between px-[5%] py-4 ">
+    <div className="fixed left-0 right-0 top-0 z-10  bg-[#f5f0e8]">
+      <div className="container flex items-center justify-between">
         <p className="text-4xl font-extrabold">Portfolio.</p>
         <ul className="hidden gap-4 sm:flex">
           {navItems.map((item) => (
