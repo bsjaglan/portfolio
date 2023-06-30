@@ -9,7 +9,7 @@ function Intro() {
       </p>
 
       <div className="md:w-1/2">
-        <p className="text-customGray text-xl">
+        <p className="text-customGray text-xl text-justify">
           I'm a highly motivated developer and mechanical engineer from Canada.
           I adore building accessible, responsive and performant code.
           Furthermore, I love science and technoloy. Learning something new
@@ -17,8 +17,8 @@ function Intro() {
           Web Design.
         </p>
         <br />
-        <p className="text-customGray">
-          I have graduated from Canadore Collegeas a Mechanical Engineer and
+        <p className="text-customGray text-xl text-justify">
+          I have graduated from Canadore College as a Mechanical Engineer and
           love programming as well.
         </p>
         <div className="flex my-6 space-x-4">

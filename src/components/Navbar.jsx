@@ -7,8 +7,8 @@ function Navbar() {
   const [sidebar, setSidebar] = useState(false);
 
   const navItems = [
-    {id: 4, text: "Projects", route: "#projects"},
-    {id: 3, text: "Contact", route: "#contact"},
+    {id: 4, text: "Projects", route: "/#projects"},
+    {id: 3, text: "Contact", route: "/#contact"},
     {id: 2, text: "About", route: "/about"},
     {id: 1, text: "Home", route: "#"},
   ];
